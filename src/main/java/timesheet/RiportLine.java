@@ -5,7 +5,16 @@ import java.util.Map;
 
 public class RiportLine
 {
+    public Project getProject() {
+        return project;
+    }
+
     Project project;
+
+    public long getTime() {
+        return time;
+    }
+
     long time;
 
     public RiportLine(Project project, long time)

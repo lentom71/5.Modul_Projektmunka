@@ -96,4 +96,12 @@ public class Company
             throw new IllegalStateException("The file cannot write!", e);
         }
     }
+
+    public List<Project> getProjects() {
+        return projects;
+    }
+
+    public List<Employee> getEmployees() {
+        return employees;
+    }
 }
